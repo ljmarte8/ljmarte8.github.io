@@ -9,11 +9,19 @@ html, body {
     overflow: hidden;
 }
 html { 
-  background: url(images/WashingMachine.mov) no-repeat center center fixed; 
+  background: url(WashingMachine.mov) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.landing {
+    position: relative;
+    background-image: url('../img/WashingMachine.mov');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
 }
 .landing-inner {
     position: absolute;
