@@ -8,14 +8,14 @@ html, body {
     background: #333;
     overflow: hidden;
 }
-#WashingMachineMov {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-}
+.landing {
+    position: relative;
+    background-image: url('../img/Fabric Processing.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
 
+}
 .landing-inner {
     position: absolute;
     top: 0;
