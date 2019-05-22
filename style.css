@@ -8,13 +8,12 @@ html, body {
     background: #333;
     overflow: hidden;
 }
-.landing {
-    position: relative;
-    background-image: url('../img/WashingMachine.mov');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-
+#WashingMachineMov {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
 }
 
 .landing-inner {
