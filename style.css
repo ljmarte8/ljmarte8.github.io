@@ -10,7 +10,7 @@ html, body {
 }
 .landing {
     position: relative;
-    background-image: url("../img/Fabric Processing.png");
+    background-image: url("Fabric Processing.png");
     background-size: cover;
     background-position: center;
     height: 100vh;
